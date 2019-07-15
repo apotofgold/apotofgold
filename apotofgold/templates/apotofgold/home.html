@@ -1,0 +1,15 @@
+{% extends "apotofgold/base.html" %}
+{% block content %}
+	{% for each in messages %}
+		<article class="media content-section">
+			<div class ="media-body">
+				<div class="article-metadata">
+					<a class="mr-2" href="#"1>{{ each.author }} </a>
+					<small class="text-muted">{{ each.date_posted }}</small>
+			</div>
+			<h2><a class="article-title" href="#">{{ each.title }}
+				<p class="article-content">{{ each.content }}</p>
+			</div>
+		</article>
+	{% endfor %}
+{% endblock content %}
