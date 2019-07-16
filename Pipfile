@@ -9,7 +9,7 @@ verify_ssl = true
 gunicorn = "*"
 django-heroku = "*"
 requests = "*"
-crispy-forms = "*"
+django-crispy-forms = "*"
 Django = "*"
 
 [requires]
