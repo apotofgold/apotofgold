@@ -3,3 +3,4 @@ gunicorn
 django-heroku
 requests
 django_crispy_forms
+django-crispy-forms==1.6.0
