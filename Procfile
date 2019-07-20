@@ -1,1 +1,1 @@
-web: gunicorn apotofgold.wsgi --log-file
+web: gunicorn apotofgold.wsgi 
